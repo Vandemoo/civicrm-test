@@ -1,0 +1,12 @@
+name = Abiodun membership tracking
+description = This records very detailed membership period and additional data
+dependencies[] = civicrm
+package = CiviCRM
+core = 7.x
+version = 4.7
+files[] = postmembership.module
+files[] = src/PeriodData/PeriodData.php
+files[] = src/PeriodData/PeriodDataInterface.php
+files[] = src/PeriodData/PeriodDataException.php
+files[] = composer.json
+files[] = vendor/autoload.php

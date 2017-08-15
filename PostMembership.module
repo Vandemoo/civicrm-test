@@ -1,0 +1,10 @@
+<?php
+
+require 'vendor/autoload.php';
+
+function PostMembership_civicrm_post($op, $objectName, $objectId, &$objectRef) {
+    if($objectName === "Membership"){
+    $additionalData = new \Abiodun\PeriodData($op, $objectRef);
+    $additionalData->saveData();
+    }
+}

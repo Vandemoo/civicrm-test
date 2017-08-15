@@ -1,0 +1,18 @@
+{
+    "name": "abiodun/member-tracking",
+    "description": "This library extends civiCRM, to record and/or track changes in client membership data",
+    "keywords": ["membership","civiCRM", "php"],
+    "type": "library",
+    "license": "GNU GPLv3",
+    "authors": [
+        {
+            "name": "Odusanya Abiodun",
+            "email": "ademolaodusanya22@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Ademola\\PeriodData\\": "src/PeriodData"}
+    },
+    "require": {}
+}
